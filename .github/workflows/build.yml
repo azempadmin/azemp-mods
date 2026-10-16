@@ -10,11 +10,34 @@ jobs:
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install customtkinter pyinstaller
-      - run: pyinstaller --onefile --windowed --name AzeMP_Installer --collect-all customtkinter azemp_installer.py
+
+      - name: Paketleri yukle
+        run: pip install customtkinter pillow pyinstaller
+
+      - name: Fonts qovluqu
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force -Path fonts | Out-Null
+          Set-Content -Path fonts/.keep -Value "keep"
+
+      - name: Inter fontunu yukle (alinmasa sistem fontu istifade olunur)
+        continue-on-error: true
+        shell: pwsh
+        run: |
+          Invoke-WebRequest -Uri "https://github.com/rsms/inter/releases/download/v4.0/Inter-4.0.zip" -OutFile inter.zip
+          Expand-Archive inter.zip -DestinationPath inter_tmp -Force
+          Get-ChildItem inter_tmp -Recurse -Include "Inter-Regular.ttf","Inter-Bold.ttf","Inter-Regular.otf","Inter-Bold.otf" | Copy-Item -Destination fonts -Force
+
+      - name: Ikon yarat
+        run: python -c "import azemp_installer as a; a.make_ico('icon.ico')"
+
+      - name: exe yarat
+        run: pyinstaller --onefile --windowed --name AzeMP_Installer --icon icon.ico --collect-all customtkinter --add-data "fonts;fonts" azemp_installer.py
+
       - uses: actions/upload-artifact@v4
         with:
           name: AzeMP_Installer
