@@ -1,9 +1,14 @@
 {
   "mods": [
     {
-      "id": "ceed",
-      "name": "AzeMP & NGC KIA Ceed",
-      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1.0/azemp_ngc_kia_ceed.rar"
+      "name": "Birinci modun adı",
+      "type": "car",
+      "url": "BURAYA_ZIP_LINKI"
+    },
+    {
+      "name": "İkinci modun adı",
+      "type": "car",
+      "url": "BURAYA_ZIP_LINKI"
     }
   ]
 }
