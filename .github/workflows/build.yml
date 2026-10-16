@@ -1,0 +1,21 @@
+name: Build exe
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install customtkinter pyinstaller
+      - run: pyinstaller --onefile --windowed --name AzeMP_Installer --collect-all customtkinter azemp_installer.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: AzeMP_Installer
+          path: dist/AzeMP_Installer.exe
