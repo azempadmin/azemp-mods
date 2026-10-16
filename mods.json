@@ -1,0 +1,20 @@
+{
+  "mods": [
+    {
+      "id": "azemp-main",
+      "name": "AzeMP Ana Mod Paketi",
+      "version": "1.0",
+      "size_mb": 250,
+      "description": "AzeMP için ana oyun modu dosyaları.",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1.0/azemp-main.zip"
+    },
+    {
+      "id": "azemp-maps",
+      "name": "AzeMP Ek Haritalar",
+      "version": "1.2",
+      "size_mb": 80,
+      "description": "Ek harita paketi.",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1.2/azemp-maps.zip"
+    }
+  ]
+}
