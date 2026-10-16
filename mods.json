@@ -1,14 +1,29 @@
 {
   "mods": [
     {
-      "name": "Birinci modun adı",
+      "name": "Toyota Aqua",
       "type": "car",
-      "url": "BURAYA_ZIP_LINKI"
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1.0/azemp_ngc_aqua_13.zip"
     },
     {
-      "name": "İkinci modun adı",
+      "name": "KIA Ceed",
       "type": "car",
-      "url": "BURAYA_ZIP_LINKI"
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1.0/azemp_ngc_kia_ceed.zip"
+    },
+    {
+      "name": "Mercedes-Benz C300",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1.0/azemp_c300.zip"
+    },
+    {
+      "name": "Toyota Prado",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1.0/azemp_toyota_prado.zip"
+    },
+    {
+      "name": "Audi Q7",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1.0/azemp_ngc_audi_q7.zip"
     }
   ]
 }
