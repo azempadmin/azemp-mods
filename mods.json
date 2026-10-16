@@ -1,22 +1,9 @@
 {
   "mods": [
     {
-      "id": "azemp-car-1",
-      "name": "Nümunə Avtomobil Modu",
-      "type": "car",
-      "version": "1.0",
-      "size_mb": 120,
-      "description": "Bu nümunədir. Real avtomobil modunu əlavə edəndə burada yazı dəyişəcək.",
-      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1.0/car1.zip"
-    },
-    {
-      "id": "azemp-track-1",
-      "name": "Nümunə Trek Modu",
-      "type": "track",
-      "version": "1.0",
-      "size_mb": 80,
-      "description": "Bu da nümunədir. Trek modları avtomatik content/tracks qovluğuna düşür.",
-      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1.0/track1.zip"
+      "id": "ceed",
+      "name": "AzeMP & NGC KIA Ceed",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1.0/azemp_ngc_kia_ceed.rar"
     }
   ]
 }
