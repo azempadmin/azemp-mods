@@ -703,9 +703,14 @@ class App(ctk.CTk):
                     corner_radius=8, height=24, width=70, font=self.F(11, "bold"),
                 ).pack(side="left", padx=(12, 0))
 
-            size = f"{mod['size_mb']} MB" if mod.get("size_mb") else "-"
-            ctk.CTkLabel(card, text=f"v{ver or '-'}   •   {size}", anchor="w", text_color=MUTED,
-                         font=self.F(12)).grid(row=1, column=0, sticky="w", padx=20, pady=(2, 0))
+            meta = []
+            if ver:
+                meta.append(f"v{ver}")
+            if mod.get("size_mb"):
+                meta.append(f"{mod['size_mb']} MB")
+            if meta:
+                ctk.CTkLabel(card, text="   •   ".join(meta), anchor="w", text_color=MUTED,
+                             font=self.F(12)).grid(row=1, column=0, sticky="w", padx=20, pady=(2, 0))
             if mod.get("description"):
                 ctk.CTkLabel(card, text=mod["description"], anchor="w", justify="left", wraplength=620,
                              text_color=TEXT, font=self.F(13)).grid(row=2, column=0, sticky="w", padx=20, pady=(6, 0))
@@ -766,7 +771,7 @@ class App(ctk.CTk):
         except Cancelled:
             self.ui(self._install_stopped, "Ləğv edildi.", ORANGE)
         except zipfile.BadZipFile:
-            self.ui(self._install_stopped, "Yüklənən fayl düzgün zip deyil.", RED)
+            self.ui(self._install_stopped, self._bad_zip_message(tmp_path), RED)
         except PermissionError:
             self.ui(self._install_stopped,
                     "Qovluğa yazmaq mümkün olmadı. Tətbiqi 'Administrator kimi işə sal' ilə aç.", RED)
@@ -778,6 +783,22 @@ class App(ctk.CTk):
                     os.remove(tmp_path)
                 except Exception:
                     pass
+
+    def _bad_zip_message(self, path):
+        try:
+            with open(path, "rb") as f:
+                head = f.read(16)
+        except Exception:
+            head = b""
+        if head.startswith(b"Rar!"):
+            return "Bu fayl RAR formatındadır. Onu ZIP formatında yenidən yarat və yüklə."
+        if head.startswith(b"7z"):
+            return "Bu fayl 7z formatındadır. Onu ZIP formatında yenidən yarat və yüklə."
+        if head.lstrip().startswith(b"<"):
+            return "Link yanlışdır: zip əvəzinə veb-səhifə yüklənir. Release-dəki zip-in düzgün linkini kopyala."
+        if len(head) == 0:
+            return "Fayl boş yüklənib. Linki yoxla."
+        return "Yüklənən fayl düzgün zip deyil (zədəli ola bilər). Zip-i yenidən yarat."
 
     def _download(self, url, out_path, name):
         req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
