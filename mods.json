@@ -1,20 +1,22 @@
 {
   "mods": [
     {
-      "id": "azemp-main",
-      "name": "AzeMP Ana Mod Paketi",
+      "id": "azemp-car-1",
+      "name": "Nümunə Avtomobil Modu",
+      "type": "car",
       "version": "1.0",
-      "size_mb": 250,
-      "description": "AzeMP için ana oyun modu dosyaları.",
-      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1.0/azemp-main.zip"
+      "size_mb": 120,
+      "description": "Bu nümunədir. Real avtomobil modunu əlavə edəndə burada yazı dəyişəcək.",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1.0/car1.zip"
     },
     {
-      "id": "azemp-maps",
-      "name": "AzeMP Ek Haritalar",
-      "version": "1.2",
+      "id": "azemp-track-1",
+      "name": "Nümunə Trek Modu",
+      "type": "track",
+      "version": "1.0",
       "size_mb": 80,
-      "description": "Ek harita paketi.",
-      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1.2/azemp-maps.zip"
+      "description": "Bu da nümunədir. Trek modları avtomatik content/tracks qovluğuna düşür.",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1.0/track1.zip"
     }
   ]
 }
