@@ -66,6 +66,11 @@
       "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_g20.zip"
     },
     {
+      "name": "BMW G30",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_bmwg30.zip"
+    },
+    {
       "name": "BMW G30 YPX",
       "type": "car",
       "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_bmwg30_ypx.zip"
@@ -201,6 +206,11 @@
       "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_kia_optima_12.zip"
     },
     {
+      "name": "Lexus LX600",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_lexus_lx600.zip"
+    },
+    {
       "name": "Li Xiang L9",
       "type": "car",
       "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_lixiang_l9.zip"
@@ -251,6 +261,16 @@
       "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_mercedes_gle63.zip"
     },
     {
+      "name": "Mercedes-Benz S500 W223",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_mercedes_s500_w223.zip"
+    },
+    {
+      "name": "Mercedes-Maybach W222",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_maybach_w222.zip"
+    },
+    {
       "name": "Porsche Cayenne",
       "type": "car",
       "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_porsche_cayenne.zip"
@@ -261,9 +281,19 @@
       "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_rangerover_25.zip"
     },
     {
+      "name": "Range Rover 2025 V2",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_rangerover_25v2.zip"
+    },
+    {
       "name": "Toyota Camry 2.5 Hybrid",
       "type": "car",
       "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_camry_2.5_hybrid.zip"
+    },
+    {
+      "name": "Toyota Camry 2.5 Kortec",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_camry_2.5_kortec.zip"
     },
     {
       "name": "Toyota Camry 2025",
@@ -274,6 +304,11 @@
       "name": "Toyota Corolla 2023",
       "type": "car",
       "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_corolla_23.zip"
+    },
+    {
+      "name": "Toyota Land Cruiser 300",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_lc300.zip"
     },
     {
       "name": "Toyota Prius",
@@ -321,7 +356,7 @@
       "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_traffic_toyota_rav4.zip"
     },
     {
-      "name": "Mercedes Cheshka",
+      "name": "VAZ 2108 Cheshka",
       "type": "car",
       "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_cheshka.zip"
     },
