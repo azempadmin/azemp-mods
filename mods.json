@@ -1,4 +1,4 @@
-{ 
+{
   "mods": [
     {
       "name": "Toyota Aqua",
@@ -25,10 +25,312 @@
       "type": "car",
       "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1.0/azemp_ngc_audi_q7.zip"
     },
-      {
+    {
       "name": "AzeMP Plate App",
       "type": "tool",
       "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1.0/PlateText.zip"
+    },
+    {
+      "name": "AZ Samand",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_azsamand.zip"
+    },
+    {
+      "name": "Audi RS6 C8",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_audi_rs6_c8.zip"
+    },
+    {
+      "name": "BMW 530",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_bmw_530.zip"
+    },
+    {
+      "name": "BMW E34 Tevzadze",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_bmw_e34_tevzadze.zip"
+    },
+    {
+      "name": "BMW F30",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_f30.zip"
+    },
+    {
+      "name": "BMW F30 340i Stage 3",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_f30_340i_stage3.zip"
+    },
+    {
+      "name": "BMW G20",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_g20.zip"
+    },
+    {
+      "name": "BMW G30 YPX",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_bmwg30_ypx.zip"
+    },
+    {
+      "name": "BMW M3 F80 LCI",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_bmw_m3_f80_lci.zip"
+    },
+    {
+      "name": "BMW M4 F82",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_m4_f82.zip"
+    },
+    {
+      "name": "BMW M5 E39",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_bmw_m5_e39.zip"
+    },
+    {
+      "name": "BMW M5 E60",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_m5_e60.zip"
+    },
+    {
+      "name": "BMW M5 F10",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_bmw_m5_f10.zip"
+    },
+    {
+      "name": "BMW M5 F90",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_m5_f90.zip"
+    },
+    {
+      "name": "BMW X5 F95",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_bmw_x5_f95.zip"
+    },
+    {
+      "name": "BMW X5 M E70",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_bmw_x5m_e70.zip"
+    },
+    {
+      "name": "BMW X5 M F85",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_bmw_x5m_f85.zip"
+    },
+    {
+      "name": "BMW X7",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_bmw_x7.zip"
+    },
+    {
+      "name": "BYD",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_byd.zip"
+    },
+    {
+      "name": "Chevrolet Cobalt",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_cobalt.zip"
+    },
+    {
+      "name": "Chevrolet Malibu",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_chevrolet_malibu.zip"
+    },
+    {
+      "name": "F.F Truck",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_f.f_truck.zip"
+    },
+    {
+      "name": "Fiat Doblo PPX",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_fiat_doblo_ppx.zip"
+    },
+    {
+      "name": "Hyundai Accent 2013",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_accent_13.zip"
+    },
+    {
+      "name": "Hyundai Elantra",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_hyundai_elantra.zip"
+    },
+    {
+      "name": "Hyundai Elantra Sport",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_elantra_sport.zip"
+    },
+    {
+      "name": "Hyundai Grandeur",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_hyundai_grandeur.zip"
+    },
+    {
+      "name": "Hyundai Grandeur 2014",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_grandeur14.zip"
+    },
+    {
+      "name": "Hyundai Sonata 2.0",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_sonata2.0.zip"
+    },
+    {
+      "name": "Hyundai Sonata 2013",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_sonata_2013.zip"
+    },
+    {
+      "name": "Hyundai Sonata 2017",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_sonata_2017.zip"
+    },
+    {
+      "name": "Hyundai Sonata NF",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_hyundai_sonata_nf.zip"
+    },
+    {
+      "name": "KIA K5",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_k5.zip"
+    },
+    {
+      "name": "KIA Optima 2012",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_kia_optima_12.zip"
+    },
+    {
+      "name": "Li Xiang L9",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_lixiang_l9.zip"
+    },
+    {
+      "name": "Mercedes-Benz C200",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_c200.zip"
+    },
+    {
+      "name": "Mercedes-Benz C200 W206",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_mercedes_c200_w206.zip"
+    },
+    {
+      "name": "Mercedes-Benz C200d",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_mercedes_benz_c200d.zip"
+    },
+    {
+      "name": "Mercedes-Benz CLS 55",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_cls_55.zip"
+    },
+    {
+      "name": "Mercedes-Benz CLS W218",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_cls_w218.zip"
+    },
+    {
+      "name": "Mercedes-Benz E320 ZL77",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_e320_zl77.zip"
+    },
+    {
+      "name": "Mercedes-Benz E63 AMG W211",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_mercedes_e63w211_amg.zip"
+    },
+    {
+      "name": "Mercedes-Benz G63 W464",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_mercedes_g63_w464.zip"
+    },
+    {
+      "name": "Mercedes-Benz GLE63",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_mercedes_gle63.zip"
+    },
+    {
+      "name": "Porsche Cayenne",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_porsche_cayenne.zip"
+    },
+    {
+      "name": "Range Rover 2025",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_rangerover_25.zip"
+    },
+    {
+      "name": "Toyota Camry 2.5 Hybrid",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_camry_2.5_hybrid.zip"
+    },
+    {
+      "name": "Toyota Camry 2025",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_camry_2025.zip"
+    },
+    {
+      "name": "Toyota Corolla 2023",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_corolla_23.zip"
+    },
+    {
+      "name": "Toyota Prius",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_prius.zip"
+    },
+    {
+      "name": "Toyota Prius 20",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_prius20.zip"
+    },
+    {
+      "name": "Traffic Audi A4",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_traffic_audi_a4.zip"
+    },
+    {
+      "name": "Traffic Dodge Taxi",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_traffic_dodge_taxi.zip"
+    },
+    {
+      "name": "Traffic Isuzu NPR USA",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_traffic_isuzu_nprusa.zip"
+    },
+    {
+      "name": "Traffic Nissan Leaf",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_traffic_nissan_leaf.zip"
+    },
+    {
+      "name": "Traffic Toyota Camry",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_traffic_toyota_camry.zip"
+    },
+    {
+      "name": "Traffic Toyota Prius",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_traffic_toyota_prius.zip"
+    },
+    {
+      "name": "Traffic Toyota RAV4",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_traffic_toyota_rav4.zip"
+    },
+    {
+      "name": "VAZ 2108 Cheshka",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_cheshka.zip"
+    },
+    {
+      "name": "Xezer LX",
+      "type": "car",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_xezer_lx.zip"
     }
   ]
 }
+mods.json
+12 KB
