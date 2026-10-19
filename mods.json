@@ -31,6 +31,11 @@
       "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1.0/PlateText.zip"
     },
     {
+      "name": "AzeMP Weather App",
+      "type": "tool",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/DreamRealismWeatherControl.zip"
+    },
+    {
       "name": "AZ Samand",
       "type": "car",
       "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_azsamand.zip"
