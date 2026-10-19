@@ -364,6 +364,26 @@
       "name": "Xezer LX",
       "type": "car",
       "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/azemp_ngc_xezer_lx.zip"
+    },
+    {
+      "name": "AC Georgia V6.25",
+      "type": "track",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/AC_GEORGIA_V6.25.zip"
+    },
+    {
+      "name": "Alman Avtobani",
+      "type": "track",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/Alman.Avtobani.zip"
+    },
+    {
+      "name": "Hamburg by 4r",
+      "type": "track",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/Hamburg_by_4r.zip"
+    },
+    {
+      "name": "Shuto Revival Project Beta",
+      "type": "track",
+      "url": "https://github.com/azempadmin/azemp-mods/releases/download/v1/shuto_revival_project_beta.zip"
     }
   ]
 }
