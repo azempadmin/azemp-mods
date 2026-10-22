@@ -16,7 +16,7 @@ jobs:
           python-version: "3.12"
 
       - name: Paketleri yukle
-        run: pip install customtkinter pillow pyinstaller
+        run: pip install customtkinter pillow pyinstaller certifi
 
       - name: Fonts qovluqu
         shell: pwsh
@@ -36,7 +36,7 @@ jobs:
         run: python -c "import azemp_installer as a; a.make_ico('icon.ico')"
 
       - name: exe yarat
-        run: pyinstaller --onefile --windowed --name AzeMP_Installer --icon icon.ico --collect-all customtkinter --add-data "fonts;fonts" azemp_installer.py
+        run: pyinstaller --onefile --windowed --name AzeMP_Installer --icon icon.ico --collect-all customtkinter --collect-all certifi --add-data "fonts;fonts" azemp_installer.py
 
       - uses: actions/upload-artifact@v4
         with:
